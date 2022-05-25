@@ -4,11 +4,31 @@ html{
 }
 /* Medium Gray: hsl(0, 0%, 41%)
 Almost Black: hsl(0, 0%, 8%) */
+nav{
 
+}
+.box_grid{
+  diplay:grid;
+  grid-row: auto auto;
+}
+.info{
+  width:400px;
+}
 h1{
-  color:hsl(0, 0%, 8%)
+  font-size:65px;
+  color:hsl(0, 0%, 8%);
+  padding:20px 0px;
 }
 .paragr{
-  font-size:50px;
-  color:hsl(0, 0%, 41%)
+  font-size:18px;
+  color:hsl(0, 0%, 41%);
+  padding:15px 0px;
+}
+.hero{
+  width:400px;
+  height: 400px;
+}
+.remotehero{
+  width:300px;
+  height:300px;
 }
