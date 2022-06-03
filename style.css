@@ -31,6 +31,13 @@ body{
   color:hsl(0, 0%, 8%);
   border:2px solid hsl(0, 0%, 8%);
 }
+
+h1{
+  font-size:70px;
+  color:hsl(0, 0%, 8%);
+  padding:20px 0px;
+}
+
 .info{
   width:600px;
   height: 600px;
@@ -39,12 +46,7 @@ body{
 }
 
 }
-h1{
-  font-size:70px;
-  color:hsl(0, 0%, 8%);
-  padding:20px 0px;
 
-}
 .paragr{
   font-size:18px;
   color:hsl(0, 0%, 41%);
@@ -70,10 +72,11 @@ h1{
   width:500px;
   height:600px;
 }
+
 @media screen and (max-width: 568px) {
   .sport {
     flex-direction: column;
   }
   .info {
-    order: 2; 
+    order: 2;
   }
