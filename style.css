@@ -3,7 +3,10 @@ body{
   font-style: normal;
   backgroung-color: hsl(0,0%,98%);
 }
-
+.navbar{
+  background-color: hsl(0,0%,98%);
+  font-size:13px;
+}
 .nav-link{
   color:hsl(0, 0%, 41%);
 }
@@ -17,12 +20,14 @@ body{
   color:hsl(0, 0%, 41%)
 }
 .login{
+  font-size:13px;
   color:hsl(0, 0%, 41%);
 }
 .login:hover{
   color:hsl(0, 0%, 8%);
 }
 .register{
+  font-size:13px;
   border:2px solid hsl(0, 0%, 41%);
   color:hsl(0, 0%, 41%);
   border-radius: 10px;
