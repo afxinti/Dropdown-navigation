@@ -54,14 +54,12 @@ h1{
 }
 
 
-
 .info{
   width:600px;
   height: 600px;
   flex-direction: column;
   justify-content: space-between;
 }
-
 
 
 .prod{
@@ -71,7 +69,6 @@ h1{
   background-color:hsl(0,0%,98%);
   color:hsl(0, 0%, 8%);
 }
-
 
 .hero{
   width:500px;
