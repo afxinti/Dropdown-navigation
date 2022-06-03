@@ -75,9 +75,10 @@ h1{
 }
 
 @media screen and (max-width: 375px) {
-  .sport {
-    flex-direction: column;
-  }
-  .info {
-    order: 2;
-  }
+    .sport {
+      flex-direction: column;
+    }
+    .info {
+      order: 2;
+    }
+}
