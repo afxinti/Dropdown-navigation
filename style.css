@@ -1,28 +1,79 @@
-html{
+body{
   font-family:"Epilogue",sans-serif;
-  backgroung-color: hsl(0,0%,98%)
+  font-style: normal;
+  backgroung-color: hsl(0,0%,98%);
 }
-/* Medium Gray: hsl(0, 0%, 41%)
-Almost Black: hsl(0, 0%, 8%) */
+
+.nav-link{
+  color:hsl(0, 0%, 41%);
+}
+.nav-link:hover{
+  color:hsl(0, 0%, 8%);
+}
+.active{
+  color:hsl(0, 0%, 41%);
+}
+.dropdown-item{
+  color:hsl(0, 0%, 41%)
+}
+.login{
+  color:hsl(0, 0%, 41%);
+}
+.login:hover{
+  color:hsl(0, 0%, 8%);
+}
 .register{
+  border:2px solid hsl(0, 0%, 41%);
+  color:hsl(0, 0%, 41%);
+  border-radius: 10px;
+}
+.register:hover{
+  color:hsl(0, 0%, 8%);
   border:2px solid hsl(0, 0%, 8%);
 }
 .info{
-  width:400px;
+  width:600px;
+  height: 600px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+}
 h1{
   font-size:70px;
   color:hsl(0, 0%, 8%);
   padding:20px 0px;
+
 }
 .paragr{
   font-size:18px;
   color:hsl(0, 0%, 41%);
   padding:15px 0px;
+  width:470px;
 }
+.btn-dark{
+  font-size: 17px;
+  padding: 10px 15px;
+  border-radius:10px;
+  width:160px;
+}
+.prod{
+  margin:20px;
+}
+.btn-dark:hover{
+  background-color:hsl(0,0%,98%);
+  color:hsl(0, 0%, 8%);
+}
+
 
 .hero{
   width:500px;
   height:600px;
 }
+/* @media screen and (max-width: 568px) { /* adjust to your needs */
+  .sport {
+    flex-direction: column;
+  }
+  .info {
+    order: 2; /* changes the order, i.e. displays the .A below the .B */
+  } */
