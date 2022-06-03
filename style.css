@@ -4,27 +4,6 @@ body{
   backgroung-color: hsl(0,0%,98%);
 }
 
-h1{
-  font-size:80px;
-  font-weight: 700;
-  color:hsl(0, 0%, 8%);
-  padding:20px 0px;
-}
-
-#pteam{
-  font-size:18px;
-  font-weight: 500;
-  color:hsl(0, 0%, 41%);
-  padding:15px 0px;
-  width:470px;
-}
-
-.btn-dark{
-  font-size: 17px;
-  padding: 10px 15px;
-  border-radius:10px;
-  width:160px;
-}
 .nav-link{
   color:hsl(0, 0%, 41%);
 }
@@ -60,7 +39,27 @@ h1{
   flex-direction: column;
   justify-content: space-between;
 }
+h1{
+  font-size:80px;
+  font-weight: 700;
+  color:hsl(0, 0%, 8%);
+  padding:20px 0px;
+}
 
+#pteam{
+  font-size:18px;
+  font-weight: 500;
+  color:hsl(0, 0%, 41%);
+  padding:15px 0px;
+  width:470px;
+}
+
+.btn-dark{
+  font-size: 17px;
+  padding: 10px 15px;
+  border-radius:10px;
+  width:160px;
+}
 
 .prod{
   margin:20px;
